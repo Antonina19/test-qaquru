@@ -9,6 +9,7 @@ public class FirstTest {
     static void beforeAll (){
         System.out.println("this is before all method!");
     }
+
     @AfterAll
     static void afterAll (){
         System.out.println("this is after all method!");
