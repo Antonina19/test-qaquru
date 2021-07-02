@@ -1,6 +1,5 @@
 package quru.qa;
 
-import com.google.gson.JsonParseException;
 import org.junit.jupiter.api.*;
 
 public class FirstTest {
