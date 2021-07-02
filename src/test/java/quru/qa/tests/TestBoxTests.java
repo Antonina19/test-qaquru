@@ -1,4 +1,4 @@
-package quru.qa;
+package quru.qa.tests;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -29,7 +29,7 @@ public class TestBoxTests {
         $("#name").shouldHave(text("Alex"));
         $("#email").shouldHave(text("alex@qaguru.com"));
         $("#currentAddress", 1).shouldHave(text("some street 1"));
-        $("#permanentAddress", 1).shouldHave(text("another street 2"));
+        $("p#permanentAddress").shouldHave(text("another street 2"));
 
     }
 }
